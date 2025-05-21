@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background: #f9f9f9;
+  }
+  
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  #timer {
+    font-weight: bold;
+    color: #c00;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+  
+  .question {
+    margin: 1.5rem 0;
+  }
+  
+  button {
+    margin: 0.5rem;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    transition: background 0.2s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  #result {
+    margin: 2rem 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  #share-link {
+    margin-top: 1rem;
+  }
+  
+  input#share-url {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
